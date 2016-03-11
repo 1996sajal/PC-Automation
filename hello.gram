@@ -1,0 +1,9 @@
+#JSGF V1.0;
+
+
+grammar hello;
+
+public <Enter> = (Open);
+public <Application> = (Paint | Note | System | Connect) ;
+public <End> = (Close | Exit);
+public <Message> = (Machine) (Sleep);
